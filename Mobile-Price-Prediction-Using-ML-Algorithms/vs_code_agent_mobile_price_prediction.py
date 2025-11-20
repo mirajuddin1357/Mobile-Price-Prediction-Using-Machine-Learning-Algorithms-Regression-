@@ -9,7 +9,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import plotly.graph_objects as go
 from datetime import datetime
 import json
 import os
@@ -1391,4 +1390,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
