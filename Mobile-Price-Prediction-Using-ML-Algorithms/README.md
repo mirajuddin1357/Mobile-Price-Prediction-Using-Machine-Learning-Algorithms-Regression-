@@ -77,7 +77,7 @@
 
 ### Project structure
 
-📁 Mobile-Price-Prediction-Using-ML-Algorithms
+📁 Mobile-Price-Prediction-Using-ML-Algorithms/
 │
 ├── smartphone.csv **# Individual smartphone dataset**
 ├── smartphone_cleaned_v1.csv **# Cleaned smartphone dataset**
@@ -558,3 +558,4 @@
 
 - Deployed the best-performing model using Streamlit, HTML and CSS to create a web application.
 - Users can input smartphone features and get price predictions in real-time.
+
