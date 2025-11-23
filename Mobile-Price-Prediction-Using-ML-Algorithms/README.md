@@ -11,7 +11,7 @@
   box-shadow:0 0 25px rgba(255,215,0,0.3);
   transition:all 0.4s ease;
 ">
-  <img src="Mobile-Price-Prediction-Using-ML-Algorithms/image.png"
+  <img src="image.png"
        width="680"
        style="
          border-radius:15px;
