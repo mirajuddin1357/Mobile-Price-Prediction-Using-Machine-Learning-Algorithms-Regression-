@@ -121,104 +121,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smartphone Dataset Attributes</title>
-  <style>
-    /* CSS Custom Properties for theming */
-    :root {
-      --bg-color: #ffffff;
-      --container-bg-color: #FAF3F3;
-      --text-color: #222222;
-      --primary-color: #8B0000;
-      --container-border-color: #8B0000;
-      --table-border-color: #e0c5c5;
-      --header-bg-color: #F5D7D7;
-      --row-hover-bg-color: #EFEFEF;
-      --shadow-color: rgba(0, 0, 0, 0.05);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg-color: #121212;
-        --container-bg-color: #2a2a2a;
-        --text-color: #e0e0e0;
-        --primary-color: #ff8a80;
-        --container-border-color: #ff8a80;
-        --table-border-color: #444444;
-        --header-bg-color: #333333;
-        --row-hover-bg-color: #3a3a3a;
-        --shadow-color: rgba(0, 0, 0, 0.2);
-      }
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      margin: 0;
-      padding: 1rem;
-      line-height: 1.6;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    .container {
-      border-radius: 12px;
-      border: 2px solid var(--container-border-color);
-      padding: 1.5rem;
-      background-color: var(--container-bg-color);
-      max-width: 1200px;
-      margin: 2rem auto;
-      box-shadow: 0 4px 12px var(--shadow-color);
-    }
-
-    h3 {
-      text-align: center;
-      color: var(--primary-color);
-      margin-top: 0;
-      font-size: 1.75rem;
-    }
-
-    .table-wrapper {
-      overflow-x: auto; /* Enables horizontal scrolling on small screens */
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 1rem;
-      text-align: left;
-    }
-
-    th, td {
-      padding: 12px 15px;
-      border-bottom: 1px solid var(--table-border-color);
-      white-space: nowrap; /* Prevents content from wrapping */
-    }
-
-    td:nth-child(3) {
-      white-space: normal; /* Allow description to wrap */
-    }
-
-    thead {
-      background-color: var(--header-bg-color);
-    }
-
-    th {
-      font-weight: 600;
-      border-bottom: 2px solid var(--primary-color);
-    }
-
-    tbody tr {
-      transition: background-color 0.2s;
-    }
-
-    tbody tr:hover {
-      background-color: var(--row-hover-bg-color);
-    }
-  </style>
 </head>
 <body>
   <div class="container">
@@ -560,6 +462,7 @@
 
 - Deployed the best-performing model using Streamlit, HTML and CSS to create a web application.
 - Users can input smartphone features and get price predictions in real-time.
+
 
 
 
