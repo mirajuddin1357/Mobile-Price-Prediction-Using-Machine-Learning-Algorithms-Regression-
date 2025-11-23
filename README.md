@@ -11,7 +11,7 @@
   box-shadow:0 0 25px rgba(255,215,0,0.3);
   transition:all 0.4s ease;
 ">
-  <img src="image.png"
+  <img src="Mobile-Price-Prediction-Using-ML-Algorithms/image.png"
        width="680"
        style="
          border-radius:15px;
@@ -462,6 +462,7 @@
 
 - Deployed the best-performing model using Streamlit, HTML and CSS to create a web application.
 - Users can input smartphone features and get price predictions in real-time.
+
 
 
 
