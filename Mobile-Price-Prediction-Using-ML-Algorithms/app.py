@@ -7,7 +7,6 @@ import pandas as pd
 import sklearn
 import numpy as np
 import joblib
-import plotly.express as px
 import pickle
 from sklearn.preprocessing import OrdinalEncoder
 import os
@@ -331,6 +330,7 @@ elif page == "About Us":
         """,
         unsafe_allow_html=True
     )
+
 
 
 
