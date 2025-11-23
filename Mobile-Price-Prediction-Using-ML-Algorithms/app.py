@@ -9,7 +9,13 @@ import numpy as np
 import joblib
 import pickle
 from sklearn.preprocessing import OrdinalEncoder
-x = pickle.load(open('smartphone_price_model.pkl', 'rb'))
+
+# Load the trained model
+try:
+    x = pickle.load(open('smartphone_price_model.pkl', 'rb'))
+except Exception as e:
+    st.error(f"Error loading model: {e}")
+    x = None
 
 
 dfen = pd.read_csv('smartphone_cleaned_v1.csv')
@@ -314,6 +320,7 @@ elif page == "About Us":
         """,
         unsafe_allow_html=True
     )
+
 
 
 
